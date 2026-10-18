@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resi Perkenalan | Mahasiswa Teknik Logistik UPI</title>
+<style>
+:root{--kuning:#fff695;--pink:#fdc184;--merah:#e8b08d;--krem:#fffce6;--hitam:#111}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Courier New",monospace;background:var(--kuning);color:var(--hitam);line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:20px}
+.box{background:var(--krem);border:4px solid var(--hitam);box-shadow:8px 8px 0 var(--hitam);padding:20px;margin:28px 0}
+h1,h2{font-family:"Arial Black",Impact,sans-serif;text-transform:uppercase;margin:0 0 12px;line-height:1.1}
+h1{font-size:clamp(2rem,7vw,3.6rem)}
+h2{font-size:1.5rem;display:inline-block;background:var(--merah);color:var(--hitam);border:3px solid var(--hitam);padding:4px 12px;transform:rotate(-1.5deg)}
+.road{overflow:hidden;background:var(--hitam);border:4px solid var(--hitam);margin-top:20px;position:relative;height:56px}
+.road::after{content:"";position:absolute;left:0;right:0;top:50%;border-top:4px dashed var(--kuning)}
+.truck{position:absolute;top:2px;height:48px;animation:jalan 8s linear infinite;z-index:1}
+@keyframes jalan{from{left:-70px}to{left:100%}}
+.label{background:var(--pink)}
+.label .top{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;border-bottom:4px dashed var(--hitam);padding-bottom:10px;margin-bottom:14px;font-weight:bold}
+.stamp{display:inline-block;border:4px solid var(--hitam);color:var(--hitam);background:var(--kuning);font-family:"Arial Black",sans-serif;padding:2px 12px;transform:rotate(-6deg);margin-top:8px}
+.bar{height:34px;margin-top:14px;background:repeating-linear-gradient(90deg,#111 0 3px,transparent 3px 6px,#111 6px 8px,transparent 8px 13px)}
+.profil{display:flex;gap:20px;flex-wrap:wrap;align-items:center}
+.profil img{width:200px;max-width:100%;border:4px solid var(--hitam);background:var(--pink)}
+.profil p{flex:1;min-width:220px;margin:0}
+.alur{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;counter-reset:s}
+.alur li{counter-increment:s;background:var(--pink);border:3px solid var(--hitam);padding:12px;position:relative}
+.alur li::before{content:counter(s);position:absolute;top:-14px;left:-10px;background:var(--hitam);color:var(--kuning);width:30px;height:30px;border-radius:50%;text-align:center;line-height:30px;font-weight:bold}
+.hobi{padding-left:20px}
+.hobi li{margin:6px 0}
+.hobi li::marker{color:var(--hitam)}
+.tbl{overflow-x:auto}
+table{width:100%;border-collapse:collapse;min-width:420px}
+th{background:var(--hitam);color:var(--kuning);text-align:left}
+th,td{border:3px solid var(--hitam);padding:8px 10px}
+tr:nth-child(even) td{background:var(--kuning)}
+.btn{display:inline-block;margin:6px 8px 6px 0;padding:10px 16px;background:var(--merah);color:var(--hitam);font-weight:bold;text-decoration:none;border:3px solid var(--hitam);box-shadow:4px 4px 0 var(--hitam);transition:transform .15s}
+.btn:hover{transform:translate(-3px,-3px);background:var(--pink);color:var(--hitam)}
+footer{text-align:center;font-weight:bold;padding:10px 0 30px}
+</style>
+</head>
+<body bgcolor="#fff695">
+<div class="wrap">
+
+<header class="box label">
+  <div class="top"><span>RESI: UPI-LOGISTIK-2026</span><span>STATUS: SIAP DIKIRIM KE DUNIA KERJA</span></div>
+  <h1>Halo, Saya Nadya Syakilah Gayatri!</h1>
+  <h3 style="margin:0">Mahasiswa Teknik Logistik &bull; Universitas Pendidikan Indonesia</h3>
+  <span class="stamp">TERKIRIM</span>
+  <div class="bar"></div>
+  <div class="road">
+    <svg class="truck" viewBox="0 0 120 48" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="6" width="68" height="30" fill="#e8b08d" stroke="#111" stroke-width="3"/><path d="M70 14h28l16 14v8H70z" fill="#fdc184" stroke="#111" stroke-width="3"/><circle cx="26" cy="38" r="8" fill="#111"/><circle cx="92" cy="38" r="8" fill="#111"/></svg>
+  </div>
+</header>
+
+<section class="box">
+  <h2>Isi Paket: Tentang Saya</h2>
+  <div class="profil">
+    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 160'%3E%3Crect width='200' height='160' fill='%23fdc184'/%3E%3Crect x='30' y='60' width='140' height='80' fill='%23fffce6' stroke='%23111' stroke-width='4'/%3E%3Cpath d='M20 62L100 20l80 42z' fill='%23e8b08d' stroke='%23111' stroke-width='4'/%3E%3Crect x='70' y='90' width='60' height='50' fill='%23fff695' stroke='%23111' stroke-width='4'/%3E%3Cpath d='M70 115h60M100 90v50' stroke='%23111' stroke-width='3'/%3E%3C/svg%3E" alt="Ilustrasi gudang (ganti dengan foto atau gudang.jpg)">
+    <p>Saya <strong>Nadya Syakilah Gayatri</strong>, mahasiswa <strong>Teknik Logistik UPI</strong> angkatan 2024. Saya tertarik pada <strong>pergudangan, transportasi, dan manajemen rantai pasok</strong>. Bagi saya, logistik adalah seni memastikan barang yang <em>tepat</em> sampai di tempat yang <em>tepat</em> pada waktu yang <em>tepat</em>.</p>
+  </div>
+</section>
+
+<section class="box">
+  <h2>Rute Perjalananku</h2>
+  <p>Seperti paket, perjalanan saya melewati beberapa titik:</p>
+  <ol class="alur">
+    <li><strong>Supplier</strong><br>Rasa ingin tahu dan masa sekolah</li>
+    <li><strong>Gudang</strong><br>Belajar teori logistik di UPI</li>
+    <li><strong>Distribusi</strong><br>Praktik, tugas, dan organisasi</li>
+    <li><strong>Pelanggan</strong><br>Berkarier di bidang rantai pasok</li>
+  </ol>
+</section>
+
+<section class="box">
+  <h2>Hobi dan Minat</h2>
+  <ul class="hobi">
+    <li>Mengamati cara kerja gudang dan proses operasional e-commerce</li>
+    <li>Belajar pembuatan website dengan HTML serta mengeksplorasi dan menyimpan proyek pengembangan web melalui GitHub</li>
+    <li>Melukis dan merancang sesuatu dengan memperhatikan proporsi, kerapian, dan estetika agar menghasilkan karya yang menarik</li>
+  </ul>
+</section>
+
+<section class="box">
+  <h2>Manifest Data Singkat</h2>
+  <div class="tbl">
+    <table>
+      <tr><th>Item</th><th>Keterangan</th></tr>
+      <tr><td>Nama</td><td>Nadya Syakilah Gayatri</td></tr>
+      <tr><td>NIM</td><td>2410343</td></tr>
+      <tr><td>Program Studi</td><td>Teknik Logistik</td></tr>
+      <tr><td>Kampus</td><td>Universitas Pendidikan Indonesia</td></tr>
+      <tr><td>Kota Asal</td><td>Kabupaten Bekasi</td></tr>
+    </table>
+  </div>
+</section>
+
+<section class="box label">
+  <h2>Kontak Penerima</h2>
+  <p>Mau kenalan atau berdiskusi? Hubungi saya lewat:</p>
+  <a class="btn" href="www.linkedin.com/in/nadya-syakilah-gayatri-aa3b12321">Linkediln</a>
+  <a class="btn" href="nadyasyakilahgayatri36@upi.edu">Email</a>
+  <a class="btn" href="https://www.upi.edu">Kampus UPI</a>
+</section>
+
+<footer>&copy; 2026 Nadya Syakilah Gayatri &bull; Dikirim dengan HTML &amp; semangat logistik</footer>
+</div>
+</body>
+</html>
